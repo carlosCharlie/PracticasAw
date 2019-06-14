@@ -11,5 +11,5 @@ Each one of these folders is a little project focused in a particular web techno
   <tr><td>taskManager5</td><td>Cookies & sessions</td></tr>
   <tr><td>taskManager6</td><td>SPA: AJAX + REST</td></tr>
   </tr>
-  
-  FaceBluzz is the final project that joins all the previous fields.
+  </table>
+  <p>FaceBluzz is the final project that joins all the previous fields.</p>
