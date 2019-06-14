@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+    background-color: #400D2A;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #5A142A;
+    padding: 30px;
+    align-items: center;
+}
+
+#iniciar{
+    font-size: 50px;
+    margin-right: 10px;
+    background-color: #DB2B30;
+    border:0;
+    padding: 10px;
+}
+.config{
+    display: flex;
+    align-items: center;
+}
+
+#board{
+    display: grid;
+
+    border:10px solid #140A25;
+    margin-left:50px;
+    margin-right: 50px;
+    background-color: #140A25;
+    border-radius: 10px;
+
+    align-items: center;
+    justify-items: center;
+
+    gap: 30px;
+    padding: 30px;
+}
+
+#board.small{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 80px;
+}
+
+#board.medium{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#board.big{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.carta{
+    width:100%;
+}
+
+#acertadas{
+    display: grid;
+    width: 30%;
+}
+
+#acertadas.small{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+#acertadas.medium{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#acertadas.big{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.acertada{
+    width: 100%;
+}
+#iniciar{
+    border: 4px #140A25 solid;
+    border-radius: 7px;
+}
