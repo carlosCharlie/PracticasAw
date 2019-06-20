@@ -12,4 +12,4 @@ Each one of these folders is a little project focused in a particular web techno
   <tr><td>taskManager6</td><td>SPA: AJAX + REST</td></tr>
   </tr>
   </table>
-  <p>FaceBluzz is the final project that joins all the previous fields.</p>
+  <p>FaceBluzz is the final project (a social media) that joins all the previous fields.</p>
