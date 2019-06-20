@@ -1,4 +1,4 @@
-<h1>Web Applications <img width="50px"src="media/globe-icon.png"></h1>
+<h1>Web Applications </h1>
 Each one of these folders is a little project focused in a particular web technology field. All of "taskManagerX" projects share some code between them.
 
 <table>
