@@ -2,7 +2,7 @@
 Each one of these folders is a little project focused in a particular web technology field. All of "taskManagerX" projects share some code between them.
 
 <table>
-  <tr><th>project</th><th>field</th></tr>
+  <tr><th>Folder</th><th>Studied field</th></tr>
   <tr><td>taskManager1</td><td>HTML & CSS</td></tr>
   <tr><td>taskManager2</td><td>Javascript</td></tr>
   <tr><td>taskManager3</td><td>database access</td></tr>
